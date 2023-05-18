@@ -2,7 +2,7 @@
 Python notebook for the implementation of deep learning algorithm for the segmentation of muscles ultra sound images.
 
 Advised by professor Bryan Ranger, we identified the space for a research that connects the growth pace of the children with the thickness of their muscles.
-In order to achieve our purposes, we will be working with different pre-existing Deep Learning models for seg- mentation. We will implement minor changes to reach the highest scores on the specific task of muscle measurements.
+In order to achieve our purposes, we will be working with different pre-existing Deep Learning models for segmentation. We will implement minor changes to reach the highest scores on the specific task of muscle measurements.
 
 The dataset we were given from the lab of professor 194 Bryan ranger, is composed of 300 images of size 415 x 195 287. Each image has its own mask, namely a binary im- 196 age, highlighting the segmentation task we need to com- 197 plete. Due to privacy reasons the data are not uploaded 
 
@@ -14,7 +14,8 @@ suit our specific task and dataset. We decided to utilize the Binary Cross Entro
 In the notebook _Project.ipynb_ is possible to find the pre-processing of the data, the training and testing of the models.
 In the python files it is possible to find the model implementation.
 
-UNET from https://github.com/nikhilroxtomar/Semantic-Segmentation-Architecture/blob/main/PyTorch/unet.p \\
+UNET from https://github.com/nikhilroxtomar/Semantic-Segmentation-Architecture/blob/main/PyTorch/unet.p 
+
 UNET3plus from https://github.com/avBuffer/UNet3plus_pth
 
 Finally, we have developed a simple algorithm that measures the thickness of the muscle. It first measure for each column of the image the longest consecutive list of white 
