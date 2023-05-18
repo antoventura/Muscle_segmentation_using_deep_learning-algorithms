@@ -14,7 +14,7 @@ suit our specific task and dataset. We decided to utilize the Binary Cross Entro
 In the notebook _Project.ipynb_ is possible to find the pre-processing of the data, the training and testing of the models.
 In the python files it is possible to find the model implementation.
 
-UNET from https://github.com/nikhilroxtomar/Semantic-Segmentation-Architecture/blob/main/PyTorch/unet.py
+UNET from https://github.com/nikhilroxtomar/Semantic-Segmentation-Architecture/blob/main/PyTorch/unet.p \\
 UNET3plus from https://github.com/avBuffer/UNet3plus_pth
 
 Finally, we have developed a simple algorithm that measures the thickness of the muscle. It first measure for each column of the image the longest consecutive list of white 
