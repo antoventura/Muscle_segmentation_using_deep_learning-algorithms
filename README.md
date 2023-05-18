@@ -1,10 +1,10 @@
-# Muscle Ultrasound Image Segmentation using Deep Learning: A Comparative 057 058 Study of FCN, U-Net and its variations
+# Muscle Ultrasound Image Segmentation using Deep Learning: A Comparative Study of FCN, U-Net and its variations
 Python notebook for the implementation of deep learning algorithm for the segmentation of muscles ultra sound images.
 
 Advised by professor Bryan Ranger, we identified the space for a research that connects the growth pace of the children with the thickness of their muscles.
 In order to achieve our purposes, we will be working with different pre-existing Deep Learning models for segmentation. We will implement minor changes to reach the highest scores on the specific task of muscle measurements.
 
-The dataset we were given from the lab of professor 194 Bryan ranger, is composed of 300 images of size 415 x 195 287. Each image has its own mask, namely a binary im- 196 age, highlighting the segmentation task we need to com- 197 plete. Due to privacy reasons the data are not uploaded 
+The dataset we were given from the lab of professor 194 Bryan ranger, is composed of 300 images of size 415 x 195. Each image has its own mask, namely a binary image, highlighting the segmentation task we need to complete. Due to privacy reasons the data are not uploaded 
 
 When training deep learning models for image segmentation tasks, we started with the U-Net architecture and
 gradually progressed to more advanced models such as U-Net++, U-Net 3+. We finished by implementing FCN. For
