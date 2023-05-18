@@ -11,7 +11,13 @@ gradually progressed to more advanced models such as U-Net++, U-Net 3+. We finis
 each of these models, we initially used implementations that were available from other researchers and adapted them to
 suit our specific task and dataset. We decided to utilize the Binary Cross Entropy as the loss function and the stochastic gradient descent as the optimizer.
 
-Finally, we have developed a simple algorithm that measures the thickness of the muscle. It first measure for each column of the image the longest consecutive list of white 303
+In the notebook _Project.ipynb_ is possible to find the pre-processing of the data, the training and testing of the models.
+In the python files it is possible to find the model implementation.
+
+UNET from https://github.com/nikhilroxtomar/Semantic-Segmentation-Architecture/blob/main/PyTorch/unet.py
+UNET3plus from https://github.com/avBuffer/UNet3plus_pth
+
+Finally, we have developed a simple algorithm that measures the thickness of the muscle. It first measure for each column of the image the longest consecutive list of white 
 pixels and, then, it takes its average. The decided to implement this instead of just computing the average of white 
 pixels per column, to minimize the possibility of mistake.
 
