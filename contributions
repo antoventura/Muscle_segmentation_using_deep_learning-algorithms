@@ -1,0 +1,14 @@
+Contributions to the code and to the relative report 
+The authors are @antoventura and @mariamorandini:
+
+-	Data loading and preprocessing : Maria 
+-	FCNN : Maria 
+-	Unet : Antonio 
+-	Unet ++: Antonio 
+-	Unet 3 plus: Maria 
+-	Customdataset: Antonio
+-	Training: Antonio 
+-	test_output: Antonio
+-	Parameter tuning: Maria 
+-	Measure Thickness Algorithm: Maria 
+
